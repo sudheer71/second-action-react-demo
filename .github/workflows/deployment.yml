@@ -1,5 +1,6 @@
 ##test.yml
 name: Test Workflow firstworkflow
+#on: [push,workflow_dispatch] or 
 on:
     # Trigger 1: On code pushes to specific branches
   push: 
