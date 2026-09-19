@@ -1,4 +1,4 @@
-name: deployment example
+name: deployment example second workflow 
 on:
   push:
     branches:
