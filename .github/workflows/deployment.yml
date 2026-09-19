@@ -1,9 +1,11 @@
 ##test.yml
 name: Test Workflow firstworkflow
 on:
-  push:
+    # Trigger 1: On code pushes to specific branches
+  push: 
     branches:
       - 'main'
+  workflow_dispatch: # Trigger 2: Manual trigger from GitHub Actions UI
 jobs:
   test:
     runs-on: ubuntu-latest
